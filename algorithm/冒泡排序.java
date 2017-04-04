@@ -5,7 +5,7 @@
      * 冒泡排序的时间复杂度为O(n^2)
      */
     public static void buttle(int[] arr) {
-        if (arr != null || arr.length < 2) {
+        if (arr == null || arr.length < 2) {
             return;
         }
         int len = arr.length;
