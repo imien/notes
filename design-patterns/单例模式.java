@@ -1,9 +1,9 @@
-/*µ¥ÀıÄ£Ê½°üº¬5ÖÖ·½Ê½£¬·Ö±ğÎª¶öººÊ½¡¢ÀÁººÊ½¡¢Ë«ÖØËø·½Ê½¡¢¾²Ì¬ÄÚ²¿Àà·½Ê½ºÍÃ¶¾Ù·½Ê½£¬
-ÆäÖĞEffective JavaÍÆ¼öµÄ·½Ê½ÊÇÃ¶¾Ù·½Ê½¡£
-AndroidÔ´ÂëÖĞµÄµ¥ÀıÄ£Ê½ÓĞInputMethodManager¡¢BluetoothOppManager¡¢AccessibilityManagerµÈ*/
+å•ä¾‹æ¨¡å¼åŒ…å«5ç§æ–¹å¼ï¼Œåˆ†åˆ«ä¸ºé¥¿æ±‰å¼ã€æ‡’æ±‰å¼ã€åŒé‡é”æ–¹å¼ã€é™æ€å†…éƒ¨ç±»æ–¹å¼å’Œæšä¸¾æ–¹å¼ï¼Œ
+å…¶ä¸­Effective Javaæ¨èçš„æ–¹å¼æ˜¯æšä¸¾æ–¹å¼ã€‚
+Androidæºç ä¸­çš„å•ä¾‹æ¨¡å¼æœ‰InputMethodManagerã€BluetoothOppManagerã€AccessibilityManagerç­‰
 
 /**
- *¶öººÊ½
+ *é¥¿æ±‰å¼
  */
 public class Singleton {
     private static Singleton instance = new Singleton();
@@ -14,7 +14,7 @@ public class Singleton {
 }
 
 /**
- *ÀÁººÊ½
+ *æ‡’æ±‰å¼
  */
 public class Singleton {
     private static Singleton instance = null;
@@ -28,7 +28,7 @@ public class Singleton {
 }
 
 /**
- *Ë«ÖØËø·½Ê½
+ *åŒé‡é”æ–¹å¼
  */
 public class Singleton {
     private static volatile Singleton instance = null;
@@ -46,7 +46,7 @@ public class Singleton {
 }
 
 /**
- *¾²Ì¬ÄÚ²¿Àà·½Ê½
+ *é™æ€å†…éƒ¨ç±»æ–¹å¼
  */
 public class Singleton {
     private static class Holder{
@@ -59,7 +59,7 @@ public class Singleton {
 }
 
 /**
- *Ã¶¾Ù·½Ê½
+ *æšä¸¾æ–¹å¼
  */
 public enum Singleton {
     instance;
