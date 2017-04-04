@@ -10,7 +10,7 @@ public int indexOf(String str,int fromIndex) 返回字符串从fromIndex开始�
 public int lastIndexOf(String str) 返回字符串中最后一次出现字串str的位置
 public int lastIndexOf(String str, int fromIndex) 返回字符串从fromIndex开始最后一次出现子串str的位置
 
-public boolean equals(Object object) 当object不为空并且与当前String对象一样返回true,否则返回false
+public boolean equals(Object object) 当object不为空并且与当前String对象一样返回true,否则false
 public boolean equalsIgnoreCase(String another) 比较字符串与another是否一样（忽略大小写）
 
 public String replace(char oldchar,char newChar) 在字符串中用newChar字符替换oldChar字符
